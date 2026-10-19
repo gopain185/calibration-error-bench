@@ -1,0 +1,10 @@
+[project]
+name = "calibration-error-bench"
+version = "0.1.0"
+description = "Bias of calibration error estimators and accuracy of post-hoc calibration methods, on simulated scores with a known calibration map"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
