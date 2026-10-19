@@ -15,4 +15,4 @@ measures:
    spline fit get to the true map, from 500 to 50,000 calibration rows;
 3. how much AUC isotonic regression and histogram binning lose to the ties they create.
 
-Everything runs on CPU in about 25 minutes, and the package source is embedded below.
+Everything runs on CPU in 25 to 45 minutes, depending on the machine, and the package source is embedded below.
